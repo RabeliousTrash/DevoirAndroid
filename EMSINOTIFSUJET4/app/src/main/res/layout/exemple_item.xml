@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="4dp"
+        android:background="#B8C7C7">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:padding="2dp"
+            android:src="@drawable/note"
+            android:id="@+id/imageView"/>
+
+        <TextView
+            android:id="@+id/textViewFiliere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="filiere"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/imageView"
+            />
+        <TextView
+            android:id="@+id/par"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewFiliere"
+            android:layout_marginLeft="60dp"
+            android:text="Par : "
+            android:padding="4dp"
+
+            />
+        <TextView
+            android:id="@+id/namePersonne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nom de l'editeur"
+            android:textSize="15sp"
+            android:layout_toEndOf="@+id/par"
+            android:layout_below="@id/textViewFiliere"
+            android:padding="4dp"
+            android:layout_marginStart="20dp"
+            />
+        <TextView
+            android:id="@+id/dateCreation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewFiliere"
+            android:layout_toEndOf="@id/namePersonne"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:text="Date De creation"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/par"
+            android:layout_marginStart="60dp"
+            android:text="Niveau: "
+            android:layout_marginTop="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewNiveauPersonne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namePersonne"
+            android:layout_marginStart="120dp"
+            android:text="niveau Personne"
+            android:layout_marginTop="10dp"
+        />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewItemsActivity"
+    android:background="#B8C7C7">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:src="@drawable/ic_add" />
+
+            <ImageButton
+                android:id="@+id/messaging"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_marginLeft="290dp"
+                android:src="@drawable/messaging"
+                />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyleNotes"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:padding="4dp"
+            android:scrollbars="vertical"
+
+            />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <Button
+       android:id="@+id/viewNotes"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Mes Notes"
+       android:background="@android:color/white"
+       android:backgroundTintMode="screen"
+       >
+
+   </Button>
+
+</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

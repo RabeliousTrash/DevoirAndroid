@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='EMSI-NOTIF-SUJET4'

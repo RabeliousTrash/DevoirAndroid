@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewItemsStudentActivity"
+    android:background="#B8C7C7">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#B8C7C7">
+
+            <EditText
+                android:id="@+id/editEditorText"
+                android:layout_width="254dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/input_design"
+                android:inputType="text"
+                android:hint="Editeur..."
+                android:textColor="@android:color/black"
+                android:maxLength="30"
+                android:padding="16dp"
+                android:textColorHint="@android:color/black"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/searchEditorButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/buttons"
+                android:text="chercher" />
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyleNotesStudent"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="4dp"
+            android:scrollbars="vertical"
+
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:text="Chercher Par"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/spinnerNivStudent"
+                android:layout_width="254dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/input_design"
+                android:drawableRight="@android:drawable/ic_input_get"
+                android:entries="@array/level"
+                android:inputType="text"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:prompt="@string/type_perso"
+                android:textColorHint="#0000"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/searchNiveauButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/buttons"
+                android:text="chercher"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/spinnerFiliereStudent"
+                android:layout_width="254dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/input_design"
+                android:drawableRight="@android:drawable/ic_input_get"
+                android:entries="@array/filiere_arrays"
+                android:inputType="text"
+                android:maxLength="12"
+                android:padding="16dp"
+                android:prompt="@string/type_perso"
+                android:textColorHint="#0000"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/searchImageButtonFiliere"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/buttons"
+                android:text="chercher"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/searchAllButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttons"
+                android:text="Voir tout" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

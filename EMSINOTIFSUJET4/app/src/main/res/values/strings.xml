@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">EMSI-NOTIF-SUJET4</string>
+    <string name="filiere_prompt">Choisir Une filiere</string>
+    <string name="departement_prompt">Choisir Un departement</string>
+    <string name="groupes_prompt">Choisir Un Groupe</string>
+    <string name="type_perso">Choisir  le type de personne</string>
+    <string name="niveau">chosir Un niveau</string>
+
+    <string-array name="level">
+        <item>niveau...</item>
+        <item>1er Annee preparatoire</item>
+        <item>2eme Annee preparatoire</item>
+        <item>3eme Annee </item>
+        <item>4eme Annee</item>
+        <item>5eme Annee</item>
+        <item>5eme Annee(Master)</item>
+    </string-array>
+
+    <string-array name="personnes_arrays">
+        <item>personnes...</item>
+        <item>Etudiant</item>
+        <item>Professeur</item>
+        <item>Surveillant</item>
+        <item>Directeur</item>
+        <item>responsable de groupe</item>
+    </string-array>
+
+
+    <string-array name="groupes_arrays">
+        <item>groupe...</item>
+        <item>groupe 1</item>
+        <item>groupe 2</item>
+        <item>Groupe 3</item>
+        <item>Groupe 4</item>
+        <item>Groupe 5</item>
+        <item>Autre</item>
+    </string-array>
+
+
+    <string-array name="filiere_arrays">
+        <item>filiere...</item>
+        <item>Informatique et Reseau</item>
+        <item>Génie Civil</item>
+        <item>Génie Industriel</item>
+        <item>Automatisme</item>
+        <item>Finance et Audite</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="departement_arrays">
+        <item>departement...</item>
+        <item>EMSI BOUREGRAG (EMSI 3)</item>
+        <item>EMSI AGDAL (EMSI 5)</item>
+        <item>EMSI HASSAN (EMSI 1 ,EMSI 2)</item>
+        <item>EMSI SOUISSI (EMSI 4)</item>
+    </string-array>
+    <string name="title_activity_professeur">ProfesseurActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+</resources>

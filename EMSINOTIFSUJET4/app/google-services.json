@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1093632556511",
+    "firebase_url": "https://emsi-notif-sujet4.firebaseio.com",
+    "project_id": "emsi-notif-sujet4",
+    "storage_bucket": "emsi-notif-sujet4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093632556511:android:9608358560faa7820d186a",
+        "android_client_info": {
+          "package_name": "com.example.emsi_notif_sujet4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093632556511-u3fro1ggkklg6d0ht4k4olru0ldim713.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emsi_notif_sujet4",
+            "certificate_hash": "ac8f4ec32c1435278bcd453cbb934d78aa575f7a"
+          }
+        },
+        {
+          "client_id": "1093632556511-8nt1is6930a3nl49sjobrrcvladbdvnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXhvBDAWN2tGxIXefxE9c5W_j7p4l_NPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093632556511-8nt1is6930a3nl49sjobrrcvladbdvnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
